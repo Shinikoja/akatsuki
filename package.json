@@ -1,0 +1,38 @@
+{
+  "name": "akatsuki",
+  "version": "2.2.2",
+  "description": "Yet another Discord bot with moderation and utility commands",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "discord bot",
+    "discord.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shinikoja/Akatsuki"
+  },
+  "author": "Em",
+  "license": "MIT",
+  "dependencies": {
+    "dblapi.js": "^2.2.0",
+    "discord.js": "^11.6.4",
+    "discord.js-commando": "^0.10.0",
+    "discord.js-musicbot-addon": "^13.9.1",
+    "dotenv": "^6.0.0",
+    "ebay-node-api": "^2.3.1",
+    "forever": "^0.15.3",
+    "lodash": "^4.17.20",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "mongodb": "^3.6.2",
+    "node-opus": "^0.3.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sqlite": "^2.9.3",
+    "urban-dictionary": "^2.1.2",
+    "ytdl-core": "^3.4.1"
+  }
+}
