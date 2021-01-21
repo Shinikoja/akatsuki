@@ -86,14 +86,6 @@ client.on('message', message =>{
     
 });
 
-(function wakeup() {
-  require('open')('https://akatsuki-bot-1.herokuapp.com', (err) => {
-    if (err) throw err;
-    console.log('Woke up!');
-    setTimeout(wakeup, 1740000); //29m
-  });
-})()
-
 require('./events/event.js')(client);
 // require('./dbl.js')(process.env.DBL_TOKEN, process.env.DBL_PASSWORD, client);
 global.BOT_DEFAULT_COLOR = config.defaultColor || [233, 91, 169];
