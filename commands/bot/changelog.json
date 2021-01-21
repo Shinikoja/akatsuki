@@ -1,12 +1,12 @@
 [
     {
-        "version": "2.2.2",
-        "note": "Version 2.2.2 adds bug fixes and new commands",
+        "version": "3.0",
+        "note": "Version 3.0 adds bug fixes and new commands",
         "major": [
-            "It's Akatsuki now! My owner is *SO* indecisive!"
+            "The bot is now hosted 24/7 on Heroku."
         ],
         "minor": [
-            "There are some secret commands some are based on keywords, some not, try to find them!"
+            "A private GitHub repository was created for easier management."
         ]
     },
     {
