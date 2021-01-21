@@ -1,6 +1,6 @@
 {
   "name": "akatsuki",
-  "version": "2.2.2",
+  "version": "3.0",
   "description": "Yet another Discord bot with moderation and utility commands",
   "main": "app.js",
   "scripts": {
