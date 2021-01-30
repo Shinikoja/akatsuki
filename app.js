@@ -26,7 +26,7 @@ client.once('ready', () => {
 client.on('message', message =>{
 
     if(message.content.toLowerCase() === 'In 2077 what makes someone a criminal?')
-        message.channel.send("GETTING COCK");
+        message.channel.send('GETTING COCK');
 
 });
 
