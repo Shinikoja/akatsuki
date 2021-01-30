@@ -78,7 +78,7 @@ client.on('message', message =>{
     } else if (command == 'poggers')
         message.channel.send('You are very poggers!')
      else if (command == 'pog')
-        message.channel.send('Fuck you Steph <a:verymad:745271335026032704>')
+        message.channel.send('https://i.redd.it/qnnxdixjld641.jpg')
      else if (command == 'wife')
         message.channel.send('https://i.redd.it/nkgd8cuvos441.jpg')
      else if (command == 'wack')
