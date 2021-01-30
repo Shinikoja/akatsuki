@@ -19,7 +19,7 @@ client.once('ready', () => {
             name: 'with Hibiki!',
             type: 'STREAMING', url: 'https://www.twitch.tv/emilylamora'
         },
-        status: 'idle'
+        status: 'streaming'
     })
 })
 
