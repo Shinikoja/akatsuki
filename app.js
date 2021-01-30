@@ -25,8 +25,8 @@ client.once('ready', () => {
 
 client.on('message', message =>{
 
-    if(message.content.toLowerCase() === 'nigga')
-        message.channel.send("AAAAAAA WHAT THE FUCK, YOU CAN'T JUST SAY NIGGA");
+    if(message.content.toLowerCase() === 'In 2077 what makes someone a criminal?')
+        message.channel.send("GETTING COCK");
 
 });
 
