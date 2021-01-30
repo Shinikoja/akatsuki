@@ -32,6 +32,13 @@ client.on('message', message =>{
 
 client.on('message', message =>{
 
+    if(message.content.toLowerCase() === 'in 2077 what makes someone a criminal?')
+        message.channel.send('Getting COCK');
+
+});
+
+client.on('message', message =>{
+
     if(message.content.toLowerCase() === 'get stick bugged lol')
         message.channel.send('<a:StickBugged:743238536190492772>');
 
