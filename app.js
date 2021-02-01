@@ -1,16 +1,16 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 const Commando = require('discord.js-commando');
-const prefix = config.prefix;
 const path = require('path');
 const sqlite = require('sqlite');
 const config = require('./config.json');
 const MongoClient = require('mongodb').MongoClient;
 const client = new Commando.Client({
     owner: process.env.BOT_OWNER || config.owner,
-    commandPrefix: process.env.BOT_PREFIX || config.prefix || ';',
+    commandPrefix: process.env.BOT_PREFIX || config.prefix || '-',
     disableEveryone: true,
     unknownCommandResponse: false
+    
 });
 
 client.once('ready', () => {
