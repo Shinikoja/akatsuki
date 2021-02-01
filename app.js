@@ -1,6 +1,7 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 const Commando = require('discord.js-commando');
+const prefix = config.prefix;
 const path = require('path');
 const sqlite = require('sqlite');
 const config = require('./config.json');
