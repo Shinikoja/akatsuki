@@ -13,6 +13,8 @@ const client = new Commando.Client({
     
 });
 
+const prefix = config.prefix;
+
 client.once('ready', () => {
     client.user.setPresence({
         game: { 
