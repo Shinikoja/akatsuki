@@ -19,7 +19,7 @@ client.once('ready', () => {
     client.user.setPresence({
         game: { 
             name: 'with Hibiki!',
-            type: 'STREAMING', url: 'https://www.twitch.tv/emilylamora'
+            type: 'STREAMING', url: 'https://www.twitch.tv/emlamora'
         },
         status: 'streaming'
     })
