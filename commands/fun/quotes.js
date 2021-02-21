@@ -8,7 +8,7 @@ module.exports = class extends Command {
             name: 'quotes',
             group: 'fun',
             memberName: 'quotes',
-            description: 'Replies with a random quote from a friend.',
+            description: 'Replies with a random out of context quote from friends of the developer.',
             aliases: [''],
             throttling: {
                 usages: 10,
