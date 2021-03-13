@@ -1,5 +1,5 @@
 require('dotenv').config();
-const Discord = require('discord.js');
+const .js');
 const Commando = require('discord.js-commando');
 const path = require('path');
 const sqlite = require('sqlite');
