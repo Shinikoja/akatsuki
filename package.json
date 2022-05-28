@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/Shinikoja/Akatsuki"
   },
-  "author": "Emilinya#2552",
+  "author": "ersatz#1633",
   "license": "MIT",
   "dependencies": {
     "dblapi.js": "^2.2.0",
